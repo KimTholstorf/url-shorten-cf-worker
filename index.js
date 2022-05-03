@@ -1,5 +1,5 @@
 const config = {
-no_ref: "off", //Control the HTTP referrer header, if you want to create an anonymous link that will hide the HTTP Referer header, please set to "on" .
+no_ref: "on", //Control the HTTP referrer header, if you want to create an anonymous link that will hide the HTTP Referer header, please set to "on" .
 theme:"",//Homepage theme, use the empty value for default theme. To use urlcool theme, please fill with "theme/urlcool" .
 cors: "on",//Allow Cross-origin resource sharing for API requests.
 unique_link:false,//If it is true, the same long url will be shorten into the same short url
@@ -27,7 +27,7 @@ if (config.cors=="on"){
 
 async function randomString(len) {
 　　len = len || 6;
-　　let $chars = 'ABCDEFGHJKMNPQRSTWXYZabcdefhijkmnprstwxyz2345678';    /****默认去掉了容易混淆的字符oOLl,9gq,Vv,Uu,I1****/
+　　let $chars = 'ABCDEFGHJKMNPQRSTWXYZabcdefhijkmnprstwxyz2345678';    
 　　let maxPos = $chars.length;
 　　let result = '';
 　　for (i = 0; i < len; i++) {

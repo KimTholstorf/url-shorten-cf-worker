@@ -1,10 +1,7 @@
 # A URL Shortener created using Cloudflare Worker
 
-# API
 
-[API Documentation](API.md)
-
-# Getting started
+## Getting started
 ### Workers KV
 
 Go to Workers KV and create a namespace. Choose a KV Namespace name that makes sence for your purpose.
@@ -38,8 +35,11 @@ If you have Cloudflare as your DNS server for your domain, then create a proxied
 Then in Worker settings under Trigger create a route to this Worker - i.e. example.com/*
 If you don't have Cloudflare DNS for your domain, then you can always access your worker on https://[worker-name].[worker-subdomain].worker.dev and make CNAME records or URL forwards to this domain.
 
-# Demo by xyTom (original auther)
+## Demo by xyTom (original auther)
 https://lnks.tools/
  
 Note: All links on the demo-site will automatically expiree after 24 hours. For long-term use, please deploy your own instance.
 
+## API
+
+[API Documentation](API.md)

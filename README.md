@@ -50,7 +50,7 @@ Note: All links on the demo-site will automatically expire after 24 hours. For l
 
 [cflogo_white]: https://duckduckgo.com/i/ad8bee9a.png
 [worker-kv]: https://cdn.jsdelivr.net/npm/imst@0.0.4/20201205232805.png
-[worker]: https://duckduckgo.com/i/ad8bee9a.png
+[worker]: https://www.citizencider.com/wp-content/uploads/2019/01/placeholder.jpg
 [worker-variable]: https://cdn.jsdelivr.net/npm/imst@0.0.4/20201205232704.png
-[worker-code]: https://duckduckgo.com/i/ad8bee9a.png
-[worker-route]: https://duckduckgo.com/i/ad8bee9a.png
+[worker-code]: https://www.citizencider.com/wp-content/uploads/2019/01/placeholder.jpg
+[worker-route]: https://www.citizencider.com/wp-content/uploads/2019/01/placeholder.jpg

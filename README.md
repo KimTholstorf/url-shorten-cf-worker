@@ -46,8 +46,8 @@ Note: All links on the demo-site will automatically expire after 24 hours. For l
 
 [API Documentation](API.md)
 
-[worker-kv]
-[worker]
-[worker-variable]
-[worker-code]
-[worker-route]
+[worker-kv]: https://cdn.jsdelivr.net/npm/imst@0.0.4/20201205232805.png
+[worker]:
+[worker-variable]: https://cdn.jsdelivr.net/npm/imst@0.0.4/20201205232704.png
+[worker-code]: 
+[worker-route]: 

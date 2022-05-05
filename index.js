@@ -1,6 +1,6 @@
 const config = {
 no_ref: "on", //Control the HTTP referrer header, if you want to create an anonymous link that will hide the HTTP Referer header, please set to "on" .
-theme:"",//Homepage theme, use the empty value for default theme. To use urlcool theme, please fill with "theme/urlcool" .
+theme:"default", //Page HTML theme [default|xytom|urlcool]".
 cors: "on",//Allow Cross-origin resource sharing for API requests.
 unique_link:false,//If it is true, the same long url will be shorten into the same short url
 custom_link:false,//Allow users to customize the short url.
@@ -128,7 +128,7 @@ async function handleRequest(request) {
   console.log(path)
   if(!path){
 
-    const html= await fetch("https://xytom.github.io/Url-Shorten-Worker/"+config.theme+"/index.html")
+    const html= await fetch("https://kimtholstorf.github.io/url-shorten-cf-worker/theme/"+config.theme+"/index.html")
     
     return new Response(await html.text(), {
     headers: {
